@@ -1,0 +1,12 @@
+<h1><%= t('.title') %></h1>
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <div class="post">
+      <h2><%= link_to post.title, post_path(post) %></h2>
+      <p><%= l post.created_at, format: :long %></p>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to t('.new_post'), new_post_path, class: 'button' %>

@@ -1,0 +1,19 @@
+ja:
+  activerecord:
+    models:
+      post: "ブログ投稿"
+    attributes:
+      post:
+        title: "タイトル"
+        content: "本文"
+  posts:
+    index:
+      title: "ブログ記事一覧"
+      new_post: "新規投稿"
+    new:
+      title: "新規ブログ投稿"
+      submit: "投稿する"
+    create:
+      success: "ブログ記事を投稿しました"
+    show:
+      back: "一覧に戻る"
